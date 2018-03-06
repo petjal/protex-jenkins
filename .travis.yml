@@ -17,6 +17,6 @@ notifications:
 
 install: true
 script:
-  - mvn clean package
+  - mvn clean package -Dmaven.test.skip=true
 after_success:
   - mvn jacoco:report coveralls:report
