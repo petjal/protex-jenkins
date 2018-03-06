@@ -8,10 +8,12 @@ cache:
 notifications:
   email:
     recipients:
-      - akamen@blackducksoftware.com
-      - jrichard@blackducksoftware.com
-      - psantos@blackducksoftware.com
-      - ekerwin@blackducksoftware.com
+#      - akamen@blackducksoftware.com
+#      - jrichard@blackducksoftware.com
+#      - psantos@blackducksoftware.com
+#      - ekerwin@blackducksoftware.com
+       - pjalajas@synopsys.com
+       - mmcintyre@blackducksoftware.com
 
 install: true
 script:
